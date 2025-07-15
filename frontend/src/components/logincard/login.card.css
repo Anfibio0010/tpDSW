@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  margin: 0px;
+  background-color: rgba(211, 211, 211, 0.836);
+}
+
+.grande {
+  font-size: 20px;
+  font-family: 'Inter';
+  color: #ffffff;
+}
+
+.p {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: left;
+  font-family: 'Inter';
+}
+
+.contenedor3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contenedor_login {
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  width: 65%;
+  height: 70%;
+  background-color: #fff5f2;
+  border-radius: 30px;
+  box-shadow: 10px 10px 45px 0 rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+
+.input_container {
+  position: relative;
+  display: inline-block;
+}
+
+.icono {
+  position: absolute;
+  top: 20%;
+  left: 16px;
+  color: gray;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.icono-ojo {
+  position: absolute;
+  top: 20%;
+  left: 300px;
+  color: gray;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario {
+  width: 100%;
+  max-width: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f5f5f5;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  color: black;
+  font-family: 'inter';
+}
+
+.boton {
+  background-color: #f66731;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+.boton:hover {
+  color: blue;
+}
+
+.boton:focus {
+  outline: none;
+}
+
+.usuariob {
+  margin-top: 15px;
+}
+
+.boton:active {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor_usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5f2;
+}
+
+.foto_login {
+  width: 500px;
+}
+
+.foto_login img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 10px 10px 45px 0 rgba(0, 0, 0, 0.3);
+}
+
+.texto {
+  color: black;
+  font-family: 'inter';
+  margin-bottom: 0px;
+}
+
+.contraseña {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.texto_bienvenida {
+  color: black;
+  font-family: 'inter';
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.regis {
+  font-weight: bold;
+  cursor: pointer;
+}
