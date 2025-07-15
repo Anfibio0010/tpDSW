@@ -21,6 +21,9 @@ body{
 .aboutContainer:first-of-type{
     background: linear-gradient(0deg,hsl(20, 100%, 97%), hsla(216, 33%, 97%, 1));
 }
+.aboutContainer:last-of-type{
+    background: linear-gradient(to bottom, #FFF5F2 50%, #817C7A 100%) 
+}
 .aboutContent{
     display: flex;
     flex-direction:row ;

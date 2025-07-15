@@ -31,3 +31,8 @@
   display: flex;
   flex-direction: column;
 }
+
+
+.footerAbout{
+  background: linear-gradient(to bottom, #817C7A 0%, #000000 100%);
+}

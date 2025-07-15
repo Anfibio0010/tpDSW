@@ -35,6 +35,7 @@ function Navbar({ id }: Props) {
                 alt="Logo"
               />
               </Link>
+              
           </li>
           <div className={styles.menuItems}>
             <li className={styles.liNavBar}>

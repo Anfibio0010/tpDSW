@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './about.module.css'
 import Navbar from '../../components/navBar/Navbar.js'
+import Footer from '../../components/Footer/Footer.js'
 import AboutContainer from '../../components/AboutContainer/index.js'
 const text1 = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quisquam dolorum blanditiis excepturi architecto eligendi a assumenda, repellat, ad dolorem omnis quasi sunt impedit ipsum adipisci! Nostrum id alias excepturi."
 const text2 = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ipsam possimus at aliquid doloremque, quod quas reiciendis consequatur nihil temporibus ipsa iste, ut, qui quaerat. Possimus, odio ea soluta quibusdam harum voluptate inventore debitis commodi aliquid?"
@@ -17,6 +18,10 @@ function About () {
                 <AboutContainer isAlignedRight imageUrl="images/nosotros-about.jpg" title="Sobre nosotros" text={text1}></AboutContainer>
                 <AboutContainer isAlignedRight={false} imageUrl="images/SantiagoMalet.png" title="Por que elegimos este camino?" text={text2}></AboutContainer>
                 <AboutContainer isAlignedRight imageUrl="images/nosotros-about.jpg" title="somos unos capos" text={text3}></AboutContainer>
+                <AboutContainer isAlignedRight={false} imageUrl="images/nosotros-about.jpg" title="asdsad" text={text3}></AboutContainer>
+            </div>
+            <div  className={styles.footerAbout}>
+                <Footer></Footer>
             </div>
         </div>
     </>
